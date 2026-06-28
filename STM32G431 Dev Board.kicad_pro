@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -244,20 +244,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1485900|1219200|812247c5-874d-490f-b2f1-5e4134fe20b0|00000000-0000-0000-0000-000000000000|/ab746719-643f-43d2-933e-ad6ce5ef6193|/ab746719-643f-43d2-933e-ad6ce5ef6193|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|355600|406400|db7a1a92-584a-4e87-b3f8-fb2ad992c6ba|00000000-0000-0000-0000-000000000000|/ab746719-643f-43d2-933e-ad6ce5ef6193|/ab746719-643f-43d2-933e-ad6ce5ef6193|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|482600|330200|a824e25f-933e-4680-80f9-03073f5cf22f|00000000-0000-0000-0000-000000000000|/ab746719-643f-43d2-933e-ad6ce5ef6193|/ab746719-643f-43d2-933e-ad6ce5ef6193|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -619,14 +606,14 @@
       "intersheets_ref_show": false,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
-      "label_size_ratio": 0.375,
+      "label_size_ratio": 0.25,
       "operating_point_overlay_i_precision": 3,
       "operating_point_overlay_i_range": "~A",
       "operating_point_overlay_v_precision": 3,
       "operating_point_overlay_v_range": "~V",
       "overbar_offset_ratio": 1.23,
-      "pin_symbol_size": 25.0,
-      "text_offset_ratio": 0.15
+      "pin_symbol_size": 0.0,
+      "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
     "legacy_lib_list": [],
@@ -641,17 +628,17 @@
     "top_level_sheets": [
       {
         "filename": "STM32G431 Dev Board.kicad_sch",
-        "name": "Stammblatt",
+        "name": "STM32G431 Dev Board",
         "uuid": "ab746719-643f-43d2-933e-ad6ce5ef6193"
       }
     ],
-    "used_designators": "J3-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "ab746719-643f-43d2-933e-ad6ce5ef6193",
-      "Stammblatt"
+      "STM32G431 Dev Board"
     ]
   ],
   "text_variables": {},
